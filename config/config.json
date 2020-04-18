@@ -1,0 +1,12 @@
+{
+  "ServerInfo": {
+    "Host": "127.0.0.1:8888"
+  },
+  "RedisInfo": {
+    "Host": "redis-one.0qogpq.0001.usw2.cache.amazonaws.com:6379",
+    "MaxIdle":     16,
+    "MaxActive":   0,
+    "IdleTimeout": 300,
+    "Db": 10
+  }
+}
