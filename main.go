@@ -7,6 +7,7 @@ import (
 	"net/smtp"
 	"os"
 	"strings"
+	"time"
 )
 
 func SendMail(username, password, host, to, name, subject, body, mailType string) error {
@@ -24,10 +25,9 @@ func SendMail(username, password, host, to, name, subject, body, mailType string
 	return err
 }
 
-/**
- * Created by 吴昊轩 on 2020/4/15.
- */
 func main() {
+
+	time.Sleep(time.Second * 30)
 
 	var (
 		err error
